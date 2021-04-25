@@ -1,0 +1,50 @@
+button {
+  padding: 5px;
+  background: #000000d4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 50vh;
+  height: 3vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: left;
+  align-items: center;
+}
+
+input,
+select {
+  border: none;
+  border-radius: 4px;
+  height: 4vh;
+  padding-left: 2vh;
+}
+
+.bank {
+  position: relative;
+  width: 750px;
+  height: 100%;
+  padding: 10px;
+  border: solid;
+  background: #7080ce;
+}
+
+.space {
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
